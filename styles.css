@@ -175,7 +175,7 @@ p {
         height: 120vh;
       }
       .container {
-        top: 20%;
+        top: 30px;
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
         --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
@@ -239,7 +239,7 @@ p {
       height: 120vh;
     }
     .container {
-      top: 20%;
+      top: 30px;
       --d: 4.5em; /* image size */
       --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
       --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
