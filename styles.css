@@ -175,6 +175,7 @@ p {
         height: 120vh;
       }
       .container {
+        top: 20%;
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
         --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
@@ -228,7 +229,7 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 100%;
+        top: 200%;
         font-size: 12px;
         align-items: center;
       }
@@ -238,6 +239,7 @@ p {
       height: 120vh;
     }
     .container {
+      top: 20%;
       --d: 4.5em; /* image size */
       --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
       --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
@@ -290,7 +292,7 @@ p {
       font-size: 8px;
     }
     footer {
-      top: 100%;
+      top: 200%;
       font-size: 12px;
       align-items: center;
     }
