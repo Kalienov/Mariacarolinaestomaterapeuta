@@ -172,7 +172,7 @@ p {
   }
 @media only screen and (max-width: 450px) {
       main {
-        height: 250vh;
+        height: 120vh;
       }
       .container {
         --d: 4.5em; /* image size */
@@ -228,14 +228,14 @@ p {
         font-size: 14px;
       }
       footer {
-        bottom: 0;
+        top: 120%;
         font-size: 12px;
         align-items: center;
       }
   }
   @media only screen and (max-height: 900px) {
     main {
-      height: 250vh;
+      height: 120vh;
     }
     .container {
       --d: 4.5em; /* image size */
@@ -290,7 +290,7 @@ p {
       font-size: 8px;
     }
     footer {
-      bottom: 0;
+      top: 120%;
       font-size: 12px;
       align-items: center;
     }
