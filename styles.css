@@ -226,6 +226,7 @@ p {
         font-size: 14px;
       }
       footer {
+        top: 150%;
         font-size: 12px;
         align-items: center;
       }
@@ -289,6 +290,7 @@ p {
       font-size: 8px;
     }
     footer {
+      top: 150%;
       font-size: 12px;
       align-items: center;
     }
