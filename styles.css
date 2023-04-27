@@ -168,7 +168,7 @@ p {
     justify-content: center;
     background: silver;
   }
-    @media only screen and (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
+    @media only screen and (min-width: 550px) and (max-width: 700px) and (orientation: landscape) {
       main {
         height: 200%;
       }
@@ -231,7 +231,7 @@ p {
         align-items: center;
       }
       }
-  @media only screen and (min-width: 300px) and (max-width: 600px) and (orientation: portrait) {
+  @media only screen and (min-width: 300px) and (max-width: 549px) and (orientation: portrait) {
     main {
       height: 185%;
     }
