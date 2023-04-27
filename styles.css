@@ -178,7 +178,7 @@ p {
         --r: calc(.5*(1 + var(--rel))*var(--d)/var(--tan)); 
       }
       .container a {
-        top: 5%;
+        top: 15%;
       }
       #foto-serviço {
         width: 40px;
@@ -226,7 +226,7 @@ p {
         font-size: 14px;
       }
       footer {
-        bottom:0;
+        top: 300%;
         font-size: 12px;
         align-items: center;
       }
