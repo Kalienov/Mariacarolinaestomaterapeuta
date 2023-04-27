@@ -172,7 +172,7 @@ p {
   }
 @media only screen and (max-width: 450px) {
       main {
-        height: 200vh;
+        height: 250vh;
       }
       .container {
         --d: 4.5em; /* image size */
@@ -180,7 +180,7 @@ p {
         --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
       }
       .container a {
-        top: 10%; left: 50%;
+        top: 10%;
       }
       #foto-serviço {
         width: 40px;
@@ -228,14 +228,14 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 200%;
+        bottom: 0;
         font-size: 12px;
         align-items: center;
       }
   }
   @media only screen and (max-height: 900px) {
     main {
-      height: 200vh;
+      height: 250vh;
     }
     .container {
       --d: 4.5em; /* image size */
@@ -243,7 +243,7 @@ p {
       --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
     }
     .container a {
-      top: 15%; left: 50%;
+      top: 15%;
     }
     #foto-serviço {
       width: 50px;
@@ -290,7 +290,7 @@ p {
       font-size: 8px;
     }
     footer {
-      top: 210%;
+      bottom: 0;
       font-size: 12px;
       align-items: center;
     }
