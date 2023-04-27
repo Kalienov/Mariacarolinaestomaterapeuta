@@ -172,12 +172,12 @@ p {
   }
 @media only screen and (max-width: 450px) {
       main {
-        height: 150vh;
+        height: 130vh;
       }
       .container {
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
-        --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
+        --r: calc(.48*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
       }
       .container a {
         top: 15%;
