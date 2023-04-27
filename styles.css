@@ -235,7 +235,7 @@ p {
   }
   @media only screen and (max-height: 900px) {
     main {
-      height: 120vh;
+      height: 150vh;
     }
     .container {
       --d: 4.5em; /* image size */
@@ -243,7 +243,7 @@ p {
       --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
     }
     .container a {
-      top: 15%;
+      top: 30%;
     }
     #foto-serviço {
       width: 50px;
@@ -290,7 +290,7 @@ p {
       font-size: 8px;
     }
     footer {
-      top: 120%;
+      top: 200%;
       font-size: 12px;
       align-items: center;
     }
