@@ -169,16 +169,19 @@ p {
     background: silver;
   }
 @media only screen and (max-width: 700px) {
-       main {
-         height: 150vh;
-       }
+       body {
+      height: 185vh;
+    }
+    main {
+      height: 185vh;
+    }
       .container {
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
         --r: calc(.5*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
       }
       .container a {
-        top: 10%;
+        top: 25%;
       }
       #foto-serviço {
         width: 40px;
@@ -226,15 +229,18 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 150%;
+        top: 185%;
         font-size: 12px;
         align-items: center;
       }
   }
   @media only screen and (max-height: 1200px) {
-     main {
-         height: 185vh;
-     }
+     body {
+      height: 185vh;
+    }
+    main {
+      height: 185vh;
+    }
     .container {
       --d: 4.5em; /* image size */
       --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
