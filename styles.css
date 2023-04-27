@@ -169,6 +169,9 @@ p {
     background: silver;
   }
 @media only screen and (max-width: 700px) {
+       main {
+         height: 120vh;
+       }
       .container {
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
@@ -228,6 +231,9 @@ p {
       }
   }
   @media only screen and (max-height: 1200px) {
+     main {
+         height: 120vh;
+     }
     .container {
       --d: 4.5em; /* image size */
       --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
