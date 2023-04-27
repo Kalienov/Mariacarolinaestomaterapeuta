@@ -170,7 +170,7 @@ p {
   }
 @media (orientation: landscape) {
     main {
-      height: 220vh;
+      height: 300vh;
     }
       .container {
         --d: 4.5em; /* image size */
@@ -178,7 +178,7 @@ p {
         --r: calc(.5*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
       }
       .container a {
-        top: 35%;
+        top: 60%;
       }
       #foto-serviço {
         width: 40px;
@@ -226,7 +226,7 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 220%;
+        top: 300%;
         font-size: 12px;
         align-items: center;
       }
