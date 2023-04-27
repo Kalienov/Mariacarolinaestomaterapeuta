@@ -172,16 +172,15 @@ p {
   }
 @media only screen and (max-width: 450px) {
       main {
-        height: 150vh;
+        height: 200vh;
       }
       .container {
-        top: 50px;
         --d: 4.5em; /* image size */
         --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
         --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
       }
       .container a {
-        top: 40%; left: 50%;
+        top: 10%; left: 50%;
       }
       #foto-serviço {
         width: 40px;
@@ -236,16 +235,15 @@ p {
   }
   @media only screen and (max-height: 900px) {
     main {
-      height: 150vh;
+      height: 200vh;
     }
     .container {
-      top: 50px;
       --d: 4.5em; /* image size */
       --rel: 0.9; /* how much extra space we want between images, 1 = one image size */
       --r: calc(.45*(1 + var(--rel))*var(--d)/var(--tan)); /* circle radius */
     }
     .container a {
-      top: 40%; left: 50%;
+      top: 15%; left: 50%;
     }
     #foto-serviço {
       width: 50px;
@@ -292,7 +290,7 @@ p {
       font-size: 8px;
     }
     footer {
-      top: 200%;
+      top: 210%;
       font-size: 12px;
       align-items: center;
     }
