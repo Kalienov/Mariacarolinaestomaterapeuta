@@ -170,7 +170,7 @@ p {
   }
     @media only screen and (min-width: 550px) and (max-width: 700px) and (orientation: landscape) {
       main {
-        height: 300%;
+        height: 295%;
       }
       .container {
         --d: 4.5em; 
@@ -226,7 +226,7 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 300%;
+        top: 295%;
         font-size: 12px;
         align-items: center;
       }
