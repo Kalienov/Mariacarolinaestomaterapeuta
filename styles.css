@@ -168,7 +168,7 @@ p {
     justify-content: center;
     background: silver;
   }
-@media (orientation: landscape) {
+@media only screen and (max-height: 320px) {
     main {
       height: 300%;
     }
