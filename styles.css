@@ -226,9 +226,7 @@ p {
         font-size: 14px;
       }
       footer {
-        top: 298%;
-        font-size: 12px;
-        align-items: center;
+        display: none;
       }
       }
   @media only screen and (min-width: 300px) and (max-width: 500px) and (orientation: portrait) {
@@ -290,8 +288,6 @@ p {
       font-size: 8px;
     }
     footer {
-      top: 185%;
-      font-size: 12px;
-      align-items: center;
+      display: none;
     }
     }
